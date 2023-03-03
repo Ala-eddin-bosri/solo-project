@@ -1,0 +1,66 @@
+body {
+    text-align: center;
+    display: flex;
+    min-height: 100vh; 
+    background-image: url(https://img.freepik.com/free-photo/modern-futuristic-sci-fi-background_35913-2150.jpg?w=1380&t=st=1677875387~exp=1677875987~hmac=a911344ed4c6e2a8466cbb52b080439d51fbe92456112c67f5e1af5c1d1a2cad);
+    background-size: cover;
+}
+.separator {
+    font-size: 8em;
+    color: palevioletred;
+  }
+  .container {
+    margin: 0 auto;
+    align-items: center;
+    border-radius: 20px;
+    padding: 25px 50px;
+    width: 80vw;
+    font-size: 1.1em
+    
+}
+.title{
+    font-style: italic;
+    font-size: 80px;
+    background-color: black;
+    color: red;
+  }
+ 
+  .pp {
+    
+    font-size: 4em;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .move {
+    border-radius: 50%;
+    border-width: 4px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+  }
+  .display-moves {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  #buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    ;
+  }
+  button {
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px 20px;
+  }
+  #result {
+    font-size: 30px;
+    margin: 20px;
+    text-align: center;
+    font-size: 6em;
+    color: cyan;
+  }
