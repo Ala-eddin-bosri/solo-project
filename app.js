@@ -5,7 +5,7 @@ var playerScore = 0
 var  computerScore = 0
 
 
-var result = document.getElementById('result')
+var msg = document.getElementById('msg')
 
 
 function ComputerChoice() {               // get computer choice
@@ -58,21 +58,21 @@ document.getElementById("r").addEventListener("click", function() {      // Add 
     playerChoice = "rock"
   document.getElementById("player-move").src='/image/rock.webp'//when we pick rock, player choice pic change to  rock
   computerChoice = ComputerChoice()
-  result.innerHTML = determineWinner(playerChoice, computerChoice)//the HTML content of result take the return of the function determinewinner
+  msg.innerHTML = determineWinner(playerChoice, computerChoice)//the HTML content of msg take the return of the function determinewinner
 });
 
 document.getElementById("p").addEventListener("click", function() {
     playerChoice = "paper";
   document.getElementById("player-move").src='/image/paper.webp'//when we pick paper, player choice pic change to paper
   computerChoice = ComputerChoice();
-  result.innerHTML = determineWinner(playerChoice, computerChoice);   //the HTML content of result take the return of the function determinewinner
+  msg.innerHTML = determineWinner(playerChoice, computerChoice);   //the HTML content of msg take the return of the function determinewinner
 });
 
 document.getElementById("s").addEventListener("click", function() {
     playerChoice = "scissors";
   document.getElementById("player-move").src='/image/scissors.webp' //when we pick scissor, player choice pic change to scissor
   computerChoice = ComputerChoice();
-  result.innerHTML = determineWinner(playerChoice, computerChoice);//the HTML content of result take the return of the function determinewinner
+  msg.innerHTML = determineWinner(playerChoice, computerChoice);//the HTML content of msg take the return of the function determinewinner
 })
 
 
